@@ -9,11 +9,11 @@ module.exports = {
     lineNumbers: true // 代码块显示行号
   },
   lastUpdated: 'Last Updated',// 文档更新时间：每个文件git最后提交的时间,
-  sidebarDepth: 2, // 侧边栏显示2级
+  sidebarDepth: 3, // 侧边栏显示2级
   themeConfig: {
     // [以 '/' 结尾的默认指向该路径下README.md文件]
     nav: [ // 导航栏配置
-      { text: '前端基础', link: '/accumulate/' },
+      { text: '前端知识体系', link: '/fe/' },
       { text: '算法', link: '/algorithm/' },
       { text: '数据结构', link: '/dataStructure/' },
       {
@@ -26,6 +26,92 @@ module.exports = {
       }
     ],
     sidebar: {
+      // 前端基础
+      '/fe/': [
+        '/fe/',
+        {
+          title: 'HTML',
+          children: []
+        },
+        {
+          title: 'CSS',
+          children: []
+        },
+        {
+          title: 'JS',
+          children: []
+        },
+        {
+          title: 'Node',
+          children: []
+        },
+        // 编译原理，数据库，操作系统，网络等
+        {
+          title: '计算机基础',
+          children: []
+        },
+        {
+          title: '设计模式',
+          children: []
+        },
+        {
+          title: '前端工程化',
+          children: [
+            '/fe/前端工程化/webpack/webpack'
+          ]
+        },
+        {
+          title: '性能优化',
+          children: []
+        },
+        {
+          title: '前端安全',
+          children: []
+        },
+        {
+          title: 'Vue',
+          children: [
+            {
+              title: '基础知识',
+              children: [
+                '/fe/Vue/基础知识/vue中的非响应式数据',
+              ]
+            },
+            '/fe/Vue/组件进阶/注册',
+            '/fe/Vue/动画/transition',
+            '/fe/Vue/高级用法/mixin',
+            '/fe/Vue/render/render',
+          ]
+        },
+        {
+          title: 'React',
+          children: []
+        },
+        {
+          title: 'ts',
+          children: []
+        },
+        {
+          title: 'flutter',
+          children: []
+        },
+        // 可视化，游戏，移动端
+        {
+          title: '前端领域',
+          children: [
+            '/fe/前端工程化/webpack/webpack'
+          ]
+        },
+        // lodash等
+        {
+          title: '前端工具库',
+          children: []
+        },
+        {
+          title: '开发工具',
+          children: []
+        },
+      ],
       '/dataStructure/': [
         '/dataStructure/',
         {
