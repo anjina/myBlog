@@ -9,7 +9,7 @@ module.exports = {
     lineNumbers: true // 代码块显示行号
   },
   lastUpdated: 'Last Updated',// 文档更新时间：每个文件git最后提交的时间,
-  sidebarDepth: 3, // 侧边栏显示2级
+  sidebarDepth: 6, // 侧边栏显示2级
   themeConfig: {
     // [以 '/' 结尾的默认指向该路径下README.md文件]
     nav: [ // 导航栏配置
@@ -75,6 +75,7 @@ module.exports = {
               title: '基础知识',
               children: [
                 '/fe/Vue/基础知识/vue中的非响应式数据',
+                '/fe/Vue/基础知识/Vue生命周期解析',
               ]
             },
             '/fe/Vue/组件进阶/注册',
