@@ -76,6 +76,8 @@ module.exports = {
               children: [
                 '/fe/Vue/基础知识/vue中的非响应式数据',
                 '/fe/Vue/基础知识/Vue生命周期解析',
+                '/fe/Vue/基础知识/计算属性与侦听器',
+                '/fe/Vue/基础知识/零散知识点',
               ]
             },
             '/fe/Vue/组件进阶/注册',
