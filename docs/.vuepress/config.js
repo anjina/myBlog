@@ -80,7 +80,15 @@ module.exports = {
                 '/fe/Vue/基础知识/零散知识点',
               ]
             },
-            '/fe/Vue/组件进阶/注册',
+            {
+              title: '组件进阶',
+              children: [
+                '/fe/Vue/组件进阶/自动注册',
+                '/fe/Vue/组件进阶/非prop的组件属性',
+                '/fe/Vue/组件进阶/注册',
+                '/fe/Vue/组件进阶/注册',
+              ]
+            },
             '/fe/Vue/动画/transition',
             '/fe/Vue/高级用法/mixin',
             '/fe/Vue/render/render',
