@@ -8,9 +8,9 @@ module.exports = {
   markdown: {
     lineNumbers: true // 代码块显示行号
   },
-  lastUpdated: 'Last Updated',// 文档更新时间：每个文件git最后提交的时间,
   sidebarDepth: 6, // 侧边栏显示2级
   themeConfig: {
+    lastUpdated: 'Last Updated',
     // [以 '/' 结尾的默认指向该路径下README.md文件]
     nav: [ // 导航栏配置
       { text: '前端知识体系', link: '/fe/' },
@@ -85,7 +85,7 @@ module.exports = {
               children: [
                 '/fe/Vue/组件进阶/自动注册',
                 '/fe/Vue/组件进阶/非prop的组件属性',
-                '/fe/Vue/组件进阶/注册',
+                '/fe/Vue/组件进阶/自定义事件',
                 '/fe/Vue/组件进阶/注册',
               ]
             },
