@@ -86,7 +86,8 @@ module.exports = {
                 '/fe/Vue/组件进阶/自动注册',
                 '/fe/Vue/组件进阶/非prop的组件属性',
                 '/fe/Vue/组件进阶/自定义事件',
-                '/fe/Vue/组件进阶/注册',
+                '/fe/Vue/组件进阶/插槽',
+                '/fe/Vue/组件进阶/动态组件&异步组件',
               ]
             },
             '/fe/Vue/动画/transition',

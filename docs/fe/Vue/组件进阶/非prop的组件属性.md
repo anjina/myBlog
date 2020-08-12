@@ -79,9 +79,6 @@ const vm = new Vue({
 
 通过`inheritAttrs`我们可以自定义将这些属性挂载到特定的元素上
 
-```html
-```
-
 ```javascript
 Vue.component('base-input', {
   inheritAttrs: false,
