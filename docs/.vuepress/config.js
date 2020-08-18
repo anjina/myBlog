@@ -91,7 +91,12 @@ module.exports = {
               ]
             },
             '/fe/Vue/动画/transition',
-            '/fe/Vue/高级用法/mixin',
+            {
+              title: '高级用法',
+              children: [
+                '/fe/Vue/高级用法/mixin',
+              ]
+            },
             '/fe/Vue/render/render',
           ]
         },
