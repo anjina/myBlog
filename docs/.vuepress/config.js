@@ -95,6 +95,7 @@ module.exports = {
               title: '高级用法',
               children: [
                 '/fe/Vue/高级用法/mixin',
+                '/fe/Vue/高级用法/自定义指令',
               ]
             },
             '/fe/Vue/render/render',
